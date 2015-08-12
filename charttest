@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>Chart test</title>
+ </head>
+ <body>
+<table>
+<table width="400" 
+cellpadding="10"
+cellspacing="5">
+<table border="1" bordercolor="white" >
+<thead>
+	
+	
+	<tr bgcolor="yellow">
+	<th bgcolor="white"></th>
+		<th>Inside out</th>
+		<th>Ant Man</th>
+		<th>Jurrasic World</th>
+		<th>Conan</th>
+	</tr>
+</thead>
+	<tr>
+		<th bgcolor="green">Wed</th>
+		<td>14:50</td>
+		<td>15:20</td>
+		<td>13:10</td>
+		<td rowspan="2">16:00</td>	
+	</tr>
+	<tr>
+		<th bgcolor="green">Thur</th>
+		<td>11:50</td>
+		<td>14:20</td>
+		<td>16:10</td>
+	</tr>
+</table>
+ </body>
+ </html>
+<html>
