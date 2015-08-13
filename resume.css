@@ -1,0 +1,47 @@
+/*index resume css*/
+
+body h1 {
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 22px;
+}
+
+body {
+    font-family: "Droid Serif", serif;
+    font-size: 14px;
+}
+
+
+/*項目*/
+
+div blockquote {
+    font-size: 16px;
+    color: #838b9c;
+    font-family: 'Raleway', sans-serif;
+    ;
+}
+
+div h2 {
+    text-decoration: underline;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5a3173;
+}
+
+div h3 {
+    font-size: 14px;
+}
+
+
+/*Contact info*/
+
+.Contact {
+    color: #7b7ba7;
+    border-color: white;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: #a7cece;
+    background-color: url(Pimage/background.gif);
+    background-repeat: no-repeat;
+}
