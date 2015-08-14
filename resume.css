@@ -1,14 +1,23 @@
 /*index resume css*/
 
-body h1 {
-    font-weight: bold;
-    font-family: Verdana;
-    font-size: 22px;
+header {
+    width: 100%;
+    padding: 20px;
+    background: #333;
+    position: fixed;
 }
 
 body {
     font-family: "Droid Serif", serif;
     font-size: 14px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+body h1 {
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 22px;
 }
 
 
