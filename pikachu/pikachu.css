@@ -1,0 +1,105 @@
+/*Pikachu*/
+
+body {
+    font-family: 'Exo', sans-serif;
+    background-color: #fff6a4;
+}
+
+
+/*P*/
+
+.wrap {
+    text-align: center;
+    color: #f6e652;
+    background-color: #c52018;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    box-sizing: border-box;
+    padding-top: 4%;
+}
+
+
+/*contact*/
+
+.circle2 {
+    color: #ffffff;
+    background-color: #623108;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    box-sizing: border-box;
+    padding-top: 30%;
+    padding-left: 10%;
+}
+
+
+/*pika intro*/
+
+.circle3 {
+    text-align: center;
+    color: #623108;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 210px;
+    left: 300px;
+    box-sizing: border-box;
+    padding-top: 110px;
+}
+
+
+/*pika pic*/
+
+.circle4 {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 180px;
+    left: 730px;
+    box-sizing: border-box;
+    padding-top: 10%;
+    padding-left: 8%;
+}
+
+
+/*FB*/
+
+.circle5 {
+    color: #f6e652;
+    background-color: #623108;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    box-sizing: border-box;
+    padding-top: 1%;
+}
+
+
+/*attribution*/
+
+.circle6 {
+    background-color: #c52018;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 850px;
+    left: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+}

@@ -37,11 +37,19 @@ div h3 {
 /*Contact info*/
 
 .Contact {
-    color: #7b7ba7;
+    color: #399494;
     border-color: white;
     border-width: 1px;
     border-style: dashed;
     background-color: #a7cece;
     background-color: url(Pimage/background.gif);
     background-repeat: no-repeat;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+}
+
+a {
+    color: #399494
 }
