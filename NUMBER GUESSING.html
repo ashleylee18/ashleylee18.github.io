@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>NUMBER GUESSING
+    </title>
+</head>
+
+<body>
+    <div>
+        <script type="text/javascript">
+        /*var""<<設定為字串*/
+        var ans = prompt("SET Answer");
+        var gue = "0000";
+        var countA = 0;
+        var countB = 0;
+        for (var x = 0; x <= 10000; x += 1) {
+            gue = prompt("Guess!");
+            for (var i = 0; i < ans.length; i += 1) {
+                for (var j = 0; j < gue.length; j += 1) {
+                    if (ans[i] === gue[j]) {
+                        if (i === j) {
+                            countA += 1;
+                        } else countB += 1;
+                    }
+                }
+            }
+
+            document.write(countA + "A" + countB + "B" + "<br>");
+            if (countA === 4) {
+                document.write("Congratulations!");
+                break;
+            } else
+                countA = 0;
+            countB = 0;
+        }
+        /*項次i=0(設定為0)，從0項抓到長度4*/
+        </script>
+    </div>
+</body>
+
+</html>
