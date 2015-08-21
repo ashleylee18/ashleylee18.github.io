@@ -17,15 +17,15 @@
         <div class="guess_box"><img src="images/jump4.jpg" /></div>
     </div>
     <script src="scripts/jquery-1.6.2.min.js"></script>
+    <!--讓指定項可以被Click 隨機取一個0-1之間的數 this現在執行的跑出這句話-->
     <script>
-    //讓指定項可以被Click 但div太多要選擇 隨機取一個0-1之間的小數<why? this<現在執行的跑出這句話
-    $(documment).ready(function() {
+    $(document).ready(function() {
         $(".guess_box").click(function() {
-            var discount = Math.floor((Math.random() * 5) + 5);
-            var discount_msg = "<p>你的折扣是" + discount + "% off</p>";
+            $(".guess_box p").remove();
+            var my_num = Math.floor((Math.random() * 5) + 5);
+            var discount_msg = " <p> Your discount is <br> " + my_num + " % off </p>";
             $(this).append(discount_msg);
         });
-
     });
     </script>
 </body>
