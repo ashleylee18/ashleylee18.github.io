@@ -15,17 +15,6 @@
                 <button id="vegOn">切換成素食版</button>
                 <button id="restoreMe">回到完整菜單</button>
             </nav>
-            <script>
-            $("#vegOn").click(function() {
-                $("li.fish").parent().remove();
-                $(.meat).after("<li class="
-                    tofu ">豆腐</li>");
-                $(.meat).replaceWith("<li class="
-                    portobello ">龍葵菇</li>");
-                $("portobello").parent().addClass("veg_leaf");
-
-            });
-            </script>
         </header>
         <div class="left_col">
             <h4>晚餐主菜</h4>
